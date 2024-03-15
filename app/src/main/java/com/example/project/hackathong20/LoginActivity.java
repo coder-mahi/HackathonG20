@@ -82,9 +82,9 @@ public class LoginActivity extends AppCompatActivity implements AdapterView.OnIt
             if(user.equals("DOCTOR")||user.equals("PATIENT")){
                 Intent i =new Intent(getApplicationContext(), MainActivity.class);
                 Toast.makeText(getApplicationContext(),"Login Succesful..!",Toast.LENGTH_SHORT).show();
-                i.putExtra("username",username);
-                i.putExtra("password",password);
-                i.putExtra("user",user);
+//                i.putExtra("username",username);
+//                i.putExtra("password",password);
+//                i.putExtra("user",user);
                 startActivity(i);
             }
         }

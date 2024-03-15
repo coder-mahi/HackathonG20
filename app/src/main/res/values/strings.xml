@@ -57,7 +57,10 @@
 
     <string name="select_doctor">Select Doctor</string>
     <string-array name="doctor_array">
-        <item>Dr. XYZ</item>
+        <item>Dr. Pratik</item>
+        <item>Dr. Mahesh</item>
+        <item>Dr. Siddharth</item>
+
     </string-array>
     <string name="select_user">Select User</string>
     <string-array name="user_spinner">

@@ -38,6 +38,14 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:context=".LoginActivity">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OPD APPOINTMENT PORTAL"
+                android:textSize="25dp"
+                android:textColor="@color/purplehome"
+                android:textStyle="bold|italic"/>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

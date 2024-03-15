@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TelemedicineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telemedicine And Virtual Consultations"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Telemedicine Appointment Checkbox -->
+        <CheckBox
+            android:id="@+id/checkboxTelemedicine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule Telemedicine Appointment"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Virtual Consultation Checkbox -->
+        <CheckBox
+            android:id="@+id/checkboxVirtualConsultation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schedule Virtual Consultation"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_below="@id/checkboxTelemedicine"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Start Video Call Button -->
+        <Button
+            android:id="@+id/buttonStartVideoCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Video Call"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/checkboxVirtualConsultation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"/>
+
+        <!-- Join Video Call Button -->
+        <Button
+            android:id="@+id/buttonJoinVideoCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Video Call"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/buttonStartVideoCall"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Messaging Interface -->
+        <EditText
+            android:id="@+id/editTextMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your message here"
+            android:layout_below="@id/buttonJoinVideoCall"
+            android:layout_marginTop="24dp"
+            android:padding="16dp"/>
+        <Button
+            android:id="@+id/buttonSendMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_below="@id/editTextMessage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

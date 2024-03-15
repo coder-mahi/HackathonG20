@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
->
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FeedbackActivity">
     <TextView
         android:id="@+id/textViewTitle"
         android:layout_width="wrap_content"
@@ -31,7 +32,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewDoctorName"
         android:layout_marginTop="10dp"
-        android:textColor="@color/black"/>
+        android:entries="@array/doctor_array"
+        android:minHeight="48dp"
+        android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/textViewRating"

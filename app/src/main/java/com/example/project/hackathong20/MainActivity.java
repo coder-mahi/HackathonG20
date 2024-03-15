@@ -74,10 +74,11 @@ public class MainActivity extends AppCompatActivity
         profilename = header.findViewById(R.id.header_username);
         emailname = header.findViewById(R.id.header_email);
 
-        String selectedUser = getIntent().getStringExtra("user");
-        String getUsername = getIntent().getStringExtra("username");
-        emailname.setText(getUsername);
-        loggedInStatus.setText(selectedUser);
+//        String selectedUser = getIntent().getStringExtra("user");
+//        String getUsername = getIntent().getStringExtra("username");
+        String selectedUser = "PATIENT";
+//        emailname.setText(getUsername);
+//        loggedInStatus.setText(selectedUser);
 //        //profilename.setText( From Database Access the Name Of User);
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.drawerOpen, R.string.drawerClose);
         drawerLayout.addDrawerListener(drawerToggle);
@@ -141,12 +142,17 @@ public class MainActivity extends AppCompatActivity
                 if (id == R.id.profile_menu) {
                     Toast.makeText(MainActivity.this, "Profile menu..!", Toast.LENGTH_SHORT).show();
                 } else if (id == R.id.dashboard_menu) {
-                    if (selectedUser.equals("DOCTOR")) {
-                        MainActivity.this.loadFragment(new DoctorDashboardFragment());
-                    } else if (selectedUser.equals("PATIENT")) {
-                        MainActivity.this.loadFragment(new PatientDashboardFragment());
-                    }
+//                    if (selectedUser.equals("DOCTOR")) {
+//                        MainActivity.this.loadFragment(new DoctorDashboardFragment());
+//                    } else if (selectedUser.equals("PATIENT")) {
+//                        MainActivity.this.loadFragment(new PatientDashboardFragment());
+//                    }
+                    Intent i = new Intent(getApplicationContext(), TelemedicineActivity.class);
+                    startActivity(i);
+                    Toast.makeText(MainActivity.this, "TELEMEDICINE ACTIVITY..!", Toast.LENGTH_SHORT).show();
                 } else if (id == R.id.rate_menu) {
+                    Intent i = new Intent(getApplicationContext(), FeedbackActivity.class);
+                    startActivity(i);
                     Toast.makeText(MainActivity.this, "Rate menu..!", Toast.LENGTH_SHORT).show();
                 } else if (id == R.id.reset_password_menu) {
                     Toast.makeText(MainActivity.this, "You are not able to change Password..!", Toast.LENGTH_SHORT).show();
