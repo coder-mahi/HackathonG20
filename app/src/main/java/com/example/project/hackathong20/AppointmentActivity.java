@@ -57,8 +57,9 @@ public class AppointmentActivity extends AppCompatActivity {
         String patientContact = editTextPatientContact.getText().toString();
 
         // You can similarly retrieve selected items from spinners
-        String selectedDoctor = spinnerDoctors.getSelectedItem().toString();
-        String selectedDepartment = spinnerDepartments.getSelectedItem().toString();
+
+//        String selectedDoctor = spinnerDoctors.getSelectedItem().toString();
+//        String selectedDepartment = spinnerDepartments.getSelectedItem().toString();
 
         // Now you can use these values as needed, for example, to upload them to a database
         // or perform any other operations in your app.
