@@ -61,7 +61,6 @@
                         android:id="@+id/username"
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
-                        android:drawableLeft="@drawable/ic_person_outline_24"
                         android:layout_marginTop="40dp"
                         android:background="@drawable/rounded_edittext"
                         android:backgroundTint="#30A39F9F"
@@ -104,8 +103,7 @@
                         android:layout_height="match_parent"
                         android:layout_marginTop="20dp"
                         app:boxStrokeWidth="0dp"
-                        app:passwordToggleEnabled="true"
-                        app:startIconDrawable="@drawable/ic_key_24">
+                        app:passwordToggleEnabled="true">
                         <!--                app:boxStrokeWidthFocused="0dp"-->
 
                         <com.google.android.material.textfield.TextInputEditText

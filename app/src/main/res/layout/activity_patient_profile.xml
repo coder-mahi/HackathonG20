@@ -28,25 +28,25 @@
             android:textStyle="italic|bold"
             android:textColor="@color/white"
             android:textAlignment="center"/>
+
         <TextView
             android:id="@+id/profile_emailID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="maheshshinde9100@gmail.com"
-            android:textSize="16dp"
-            android:textStyle="italic|normal"
+            android:text="Email"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:textAlignment="center" />
+            android:textSize="16dp"
+            android:textStyle="italic|normal" />
 
         <TextView
             android:id="@+id/profile_ID"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2100340265"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18dp"
-            android:textStyle="italic|bold"
-            android:textAlignment="center"/>
+            android:textStyle="italic|bold" />
 
         <ImageButton
             android:id="@+id/edit_profile"
