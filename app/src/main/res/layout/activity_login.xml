@@ -63,6 +63,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="55dp"
                         android:layout_marginTop="40dp"
+                        android:drawableLeft="@drawable/ic_person_outline_24"
                         android:background="@drawable/rounded_edittext"
                         android:backgroundTint="#30A39F9F"
                         android:drawablePadding="8dp"
