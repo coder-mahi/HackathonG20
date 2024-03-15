@@ -57,8 +57,6 @@
 
     <string name="select_doctor">Select Doctor</string>
     <string-array name="doctor_array">
-        <item>Dr. Smith</item>
-        <item>Dr. Johnson</item>
-        <item>Dr. Lee</item>
+        <item>Dr. XYZ</item>
     </string-array>
 </resources>
