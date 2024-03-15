@@ -109,6 +109,25 @@
         android:layout_below="@id/editTextPatientGender"
         android:hint="Patient Contact"
         android:inputType="phone"/>
+
+    <EditText
+        android:id="@+id/editTextAppointmentReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientContact"
+        android:hint="Reason For Appointment"
+        android:inputType="phone"/>
+
+
+    <Button
+        android:id="@+id/buttonsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_below="@id/editTextAppointmentReason"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
 </RelativeLayout>
 
 
