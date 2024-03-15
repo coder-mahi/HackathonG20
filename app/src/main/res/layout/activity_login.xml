@@ -74,6 +74,7 @@
                     <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
                         app:boxStrokeWidth="0dp"
                         app:passwordToggleEnabled="true"
                         app:startIconDrawable="@drawable/ic_key_24">
@@ -83,7 +84,6 @@
                             android:id="@+id/password"
                             android:layout_width="match_parent"
                             android:layout_height="55dp"
-                            android:layout_marginTop="20dp"
                             android:background="@drawable/rounded_edittext"
                             android:backgroundTint="#30A39F9F"
                             android:hint="Password"
@@ -100,13 +100,21 @@
                         android:layout_marginTop="20dp"
                         android:backgroundTint="@color/black"
                         android:onClick="login_process"
-                        android:text="Login"
+                        android:text="LOGIN"
                         android:textColor="#fff"
                         android:textSize="18sp"
                         app:cornerRadius="20dp"
                         app:itemRippleColor="@color/white" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/signupbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="bold|italic"
+                android:text="Not Register?  Sign Up"/>
         </LinearLayout>
     </ScrollView>
 
