@@ -9,4 +9,42 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+
+
+        <string name="admin">ADMIN</string>
+        <string name="patient">PATIENT</string>
+        <string name="choosePossition">SIGN IN AS</string>
+        <!--    Drawer open close-->
+        <string name="drawerOpen">Open navigation drawer</string>
+        <string name="drawerClose">Close navigation drawer</string>
+        <!-- Preference Titles -->
+        <string name="messages_header">Messages</string>
+        <string name="sync_header">Sync</string>
+
+        <!-- Messages Preferences -->
+        <string name="signature_title">Your signature</string>
+        <string name="reply_title">Default reply action</string>
+
+        <!-- Sync Preferences -->
+        <string name="sync_title">Sync email periodically</string>
+        <string name="attachment_title">Download incoming attachments</string>
+        <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+        <string name="attachment_summary_off">Only download attachments when manually requested</string>
+        <!-- TODO: Remove or change this placeholder text -->
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="mentors">Mentors</string>
+        <string name="mentees">Mentees</string>
+        <string name="title_activity_abcactivity">ABCActivity</string>
+        <string name="tab_text_1">Tab 1</string>
+        <string name="tab_text_2">Tab 2</string>
+
+        <string name="edit_profile">Edit Profile</string>
+        <string name="profile_photo">Profile Photo</string>
+        <string name="personal_details">PERSONAL DETAILS</string>
+        <string name="patient_info_txt">PATIENT INFORMATION</string>
+        <string name="enter_batch_id">Enter Batch ID</string>
+        <string name="search">search here</string>
+        <string name="doctor_dashboard_txt">DOCTOR DASHBOARD</string>
+        <string name="patient_dashboard_txt">PATIENT DASHBOARD</string>
 </resources>
