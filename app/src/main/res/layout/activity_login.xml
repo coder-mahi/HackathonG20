@@ -8,6 +8,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center">
+    <Spinner
+        android:id="@+id/user_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:entries="@array/user_spinner"
+        />
 
     <ScrollView
         android:id="@+id/scrollView2"

@@ -59,4 +59,9 @@
     <string-array name="doctor_array">
         <item>Dr. XYZ</item>
     </string-array>
+    <string name="select_user">Select User</string>
+    <string-array name="user_spinner">
+        <item>DOCTOR</item>
+        <item>PATIENT</item>
+    </string-array>
 </resources>

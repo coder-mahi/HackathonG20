@@ -2,7 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AppointmentActivity">
 
     <TextView
         android:id="@+id/textViewTitle"
@@ -61,7 +63,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewDoctor"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />
 
     <TextView
         android:id="@+id/textViewDepartment"
@@ -76,7 +79,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textViewDepartment"
-        android:layout_marginTop="8dp"/>
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPatientName"
@@ -84,7 +88,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/spinnerDepartments"
         android:hint="Patient Name"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPatientAge"
@@ -92,7 +97,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPatientName"
         android:hint="Patient Age"
-        android:inputType="number"/>
+        android:inputType="number"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPatientGender"
@@ -100,7 +106,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPatientAge"
         android:hint="Patient Gender"
-        android:inputType="text"/>
+        android:inputType="text"
+        android:minHeight="48dp" />
 
     <EditText
         android:id="@+id/editTextPatientContact"
@@ -108,7 +115,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextPatientGender"
         android:hint="Patient Contact"
-        android:inputType="phone"/>
+        android:inputType="phone"
+        android:minHeight="48dp" />
 </RelativeLayout>
 
 
