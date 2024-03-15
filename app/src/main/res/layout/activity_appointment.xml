@@ -48,5 +48,6 @@
         android:id="@+id/bookAppointmentButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Book Appointment" />
+        android:text="Book Appointment"
+        android:textSize="18dp"/>
 </LinearLayout>
